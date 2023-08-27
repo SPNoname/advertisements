@@ -3,5 +3,5 @@ from .views import index, top_sellers
 
 urlpatterns = [
     path('', index),
-    path('top-sellers/', top_sellers, name="sellers"),
+    path('top-sellers/', top_sellers, name="sellers"), 
 ]
